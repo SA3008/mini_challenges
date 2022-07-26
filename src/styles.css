@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@700&family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-family: "Poppins", sans-serif;
+}
+
+.outer__box {
+  display: flex;
+  background-color: lightslategray;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  background-color: rgb(62, 87, 112);
+  width: fit-content;
+  padding: 15px;
+  border-radius: 10px;
+  line-height: 40px;
+  text-align: center;
+}
